@@ -18,6 +18,7 @@ public class Example3 {
         System.out.println(f2.y);       // last value provided
 
         System.out.println(Foo.z);
+        //Foo.z = 1;   final variable
 
     }
 }
