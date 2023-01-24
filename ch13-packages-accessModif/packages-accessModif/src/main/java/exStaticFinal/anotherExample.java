@@ -13,7 +13,8 @@ public class anotherExample {
 //		three = 3;			// ERR already assigned
 //		two = 4;			// ERR already assigned
 	}
+	
 	//in practice avoid static initializers => use ctors
-	// use static init <=> code req >1line <=> ArrayList & HashMaps
+	// use static init when code requires >1line <=> ArrayList & HashMaps
 
 }
