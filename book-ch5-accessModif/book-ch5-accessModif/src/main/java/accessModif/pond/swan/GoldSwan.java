@@ -19,7 +19,8 @@ public class GoldSwan extends Bird {
 	
 	public void helpOtherBIRDS() {
 		Bird fsdafd = new Bird();
-//		fsdafd.ability = "swim";		// package access, not same package (bird is not inheriting from anywhere)
+//		fsdafd.ability = "swim";		// not same package (bird is not inheriting from anywhere)
+//		fsdafd.name = "";				// not same package (name: package access)
 	}
 
 }
