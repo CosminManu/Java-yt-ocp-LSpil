@@ -15,13 +15,14 @@ public class Gosling extends Bird {
 	
 	static public void main(String a[]){
 		Gosling g = new Gosling();
-		g.swim();					// al lui
+		g.swim();					
 		g.floatInWater();			// protected
 		g.ability = "fly";			// protected
 //		g.name = "afs";				// ERR package	1)
+		g.pub = true;				// public
 		
 		Bird bird = new Bird();
-		bird.pub = false;			// 3)
+		bird.pub = false;			// 3) only public
 	}
 	
 	/* members are used through a variable
@@ -38,7 +39,7 @@ public class Gosling extends Bird {
 	* 3) If the class of the variable DOESN'T INHERIT
 	*     && is NOT SAME PACKAGE
 	* 		=> no protected no package
-	* 		=> public access				(ex Bird)
+	* 		=> public access				(ex Bird on bird)
 	* */
 	
 
