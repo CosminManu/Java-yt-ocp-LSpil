@@ -1,12 +1,11 @@
 package accessModif.pond.mainland;
 
-public class BirdWatcher {
+public class BirdWatcher extends Bird{
 	
 	public void watchBird(){
-		Bird b = new Bird();
 
-		System.out.println(b.ability);		//protected = package + extends
-		System.out.println(b.name);			//package
-		b.floatInWater();
+		System.out.println(ability);		//protected
+		System.out.println(name);			//package
+		floatInWater();
 	}
 }
