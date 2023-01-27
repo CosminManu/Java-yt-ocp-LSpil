@@ -5,7 +5,7 @@ public class Duck {
 	public static void main(String[] args) {
 		int quack = 5;
 		
-		Integer quackquack = quack;		//	Autoboxing 		<=>  = Integer.valueOf(quack);
+		final Integer quackquack = quack;		//	Autoboxing 		<=>  = Integer.valueOf(quack);
 		int quack3 = quackquack;		//  unboxing		<=>	= ...intValue();
 		quack3 = quackquack.intValue();
 		
