@@ -1,6 +1,6 @@
-package overloading;
+package Lspil.overloading;
 
-import anonymousBlocks.Cat;
+import Lspil.anonymousBlocks.Cat;
 
 public class A {
 	
