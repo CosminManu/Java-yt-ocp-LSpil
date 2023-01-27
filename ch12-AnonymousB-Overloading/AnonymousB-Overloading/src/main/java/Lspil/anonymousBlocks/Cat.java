@@ -1,4 +1,4 @@
-package anonymousBlocks;
+package Lspil.anonymousBlocks;
 
 public class Cat {
 
