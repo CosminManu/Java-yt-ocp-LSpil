@@ -1,4 +1,4 @@
-package initializingClasses;
+package initializingObjects.initializingClasses;
 
 public class Hippo2 {
 	public static void main(String[] args) {

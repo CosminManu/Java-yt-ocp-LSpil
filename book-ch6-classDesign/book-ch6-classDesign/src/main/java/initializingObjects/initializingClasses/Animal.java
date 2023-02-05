@@ -1,4 +1,4 @@
-package initializingClasses;
+package initializingObjects.initializingClasses;
 
 public class Animal {
 	
