@@ -1,4 +1,4 @@
-package initializingFinalFields;
+package initializingObjects.initializingFinalFields;
 
 public class MouseHouse {
 	

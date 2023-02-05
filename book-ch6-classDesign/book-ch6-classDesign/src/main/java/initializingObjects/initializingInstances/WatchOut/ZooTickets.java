@@ -1,4 +1,4 @@
-package initializingObjects.WatchOut;
+package initializingObjects.initializingInstances.WatchOut;
 
 public class ZooTickets {
 	//what will be the output?
