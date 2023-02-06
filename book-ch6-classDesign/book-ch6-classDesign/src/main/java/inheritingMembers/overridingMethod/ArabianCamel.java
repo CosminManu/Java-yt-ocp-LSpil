@@ -13,5 +13,6 @@ Rule#1 overriding: same name + same parameters
 Rule #2 : method in the child class must be at least as accessible as parent class
 
 Rule #3 : checked/unchecked exceptions
-Rule #4 : return type of the overridden method must be covariant with return type of ht inherited method
+Rule #4 : return type of the child class' overridden method must BE THE SAME OR A SUBTYPE with return type of the parent method
+	CharSequence <- String
  */
