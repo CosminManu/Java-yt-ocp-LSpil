@@ -11,3 +11,8 @@ public class Main {
 	}
 
 }
+/*
+ * A single object is created => variable m is instanced with 'new'
+ * 
+ * As with hiding a static method, you cannot override a variable; you can only HIDE that variable
+ */
