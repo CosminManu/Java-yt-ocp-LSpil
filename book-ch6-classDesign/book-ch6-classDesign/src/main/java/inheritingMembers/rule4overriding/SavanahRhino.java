@@ -11,6 +11,10 @@ public class SavanahRhino extends Rhino{
 	public String getColor(){
 		return "gray";
 	}
+//	@Override
+//	public CharSequence getColor(){
+//		return "gray";
+//	}
 }
 
 /*
