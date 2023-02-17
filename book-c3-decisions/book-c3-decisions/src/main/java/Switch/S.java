@@ -29,6 +29,12 @@ public class S {
 		switch (month){}		// perfectly valid
 	}
 	
+	void func3(){				//valid switch with default and no case
+		switch (month){
+			default -> System.out.println("A month");
+		}
+	}
+	
 //	void func3(){
 //		switch (v){}		// ERR boolean in switch
 //	}
