@@ -23,6 +23,6 @@ public class TIger implements Herbivore, Omnivore {
 	1) interfaces are implicitly abstract
 	2) variables are implicitly public, static, final
 	3) All methods without a body are abstract *	==> no body (unless it's PRIVATE method)
-	4) All methods without access modifier are public
+	4) All methods without access modifier are public (in interfaces only)
 	
  */
